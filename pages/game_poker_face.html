@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Face - I12-B3 Games</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/slideshow.css">
+</head>
+<body>
+    <div id="nav">
+
+        <div id="nav-title">
+            <a class="no-dec" href="../index.html"><h1>I12-B3 Games</h1></a>
+        </div>
+
+        <div id="nav-menu">
+            <a class="no-dec" href="../index.html">Home</a> |
+            <a class="no-dec" href="about.html">About</a> |
+            <a class="no-dec" href="contact.html">Contact</a>
+        </div>
+
+    </div>
+
+    <div id="content">
+
+        <div>
+            <h2>Poker Face</h2>
+        </div>
+
+        <div id="game-content">
+            <!-- Description -->
+            <div>
+                <p>
+                    Poker Face is a Texas Hold 'em style Poker game with randomly generated opponents. Players bet on matches consisting of three rounds each.
+                </p>
+                <p>
+                    The flow of a round is as follows:<br>
+                    Each player is dealt two cards which only they can see. There are also five community cards,
+                    which all players can see. Players can raise the current bet, or fold taking themselves
+                    out of the round. Once the fifth community card has been dealt any players who have not
+                    folded reveal their cards and the player with the highest value hand takes the pot.
+                </p>
+                <p>
+                    Players can create a custom character choosing their character's name and face.
+                    There are several different face parts for eyes, nose, and mouth as well as hair and accessories.
+                    Skin, hair, and eye colour as well as eye width, nose length and other details can be changed too.
+                </p>
+            </div>
+            <!-- Stats -->
+            <div>
+                <table id="game-stats">
+                    <tr><td>Genre:</td><td>Card Game</td></tr>
+                    <tr><td>Players:</td><td>1</td></tr>
+                    <tr><td>Controls:</td><td>Gamepad; Keyboard</td></tr>
+                    <tr><td>Made With:</td><td>XNA; C#</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Image Slideshow Container -->
+        <div class="slideshow-container">
+            <!-- Images -->
+            <div class="mySlides fade"><img src="game_images/PF_ss_01.jpg" style="width:100%" alt="Game Screenshot 01"></div>
+            <div class="mySlides fade"><img src="game_images/PF_ss_02.jpg" style="width:100%" alt="Game Screenshot 02"></div>
+            <div class="mySlides fade"><img src="game_images/PF_ss_03.jpg" style="width:100%" alt="Game Screenshot 03"></div>
+            <div class="mySlides fade"><img src="game_images/PF_ss_04.jpg" style="width:100%" alt="Game Screenshot 04"></div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Link JavaScript for changing current image. -->
+            <script src="../js/slideshow.js"></script>
+        </div>
+        <br>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+    </div>
+</body>
+</html>
